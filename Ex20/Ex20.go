@@ -1,16 +1,20 @@
+
 package main
 
-import(
+import (
 	"fmt"
 )
 
 func main() {
-	i := 10
-	if i > 10 {
+	i := 9
+	switch{
+		
+	case i > 10:
 		fmt.Println("I é maior que 10")
-	}else if i == 10{
+	case i == 10:
 		fmt.Println("I é igual a 10")
-	}else{
+	case i < 10:
 		fmt.Println("I é menor que 10")
+
 	}
 }
